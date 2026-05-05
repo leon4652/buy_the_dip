@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"C:\\\\project\\\\buy_the_dip\" -Force)",
+      "Bash(Select-Object -Property Mode, Name)",
+      "Bash(Format-List)",
+      "WebSearch",
+      "Bash(Remove-Item -Recurse -Force \"C:\\\\project\\\\buy_the_dip\\\\be\")",
+      "Bash(Remove-Item -Recurse -Force \"C:\\\\project\\\\buy_the_dip\\\\fe\")",
+      "Bash(curl -s \"https://start.spring.io/starter.zip?type=gradle-project&language=java&baseDir=backend&groupId=com.buythedip&artifactId=backend&name=backend&packageName=com.buythedip.backend&packaging=jar&javaVersion=21&dependencies=web,devtools,validation,data-jpa,postgresql\" -o \"C:/project/buy_the_dip/backend.zip\")",
+      "Bash(unzip -q backend.zip)"
+    ]
+  }
+}
